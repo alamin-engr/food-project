@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
+a{
+    text-decoration: none;
+}
+
+h1
+h2
+h3
+h4
+h5
+h6{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*==============================
+    HEADER START
+==============================*/
+
+
+
+header{
+    background: #000;
+    height: 50px;
+    width: 100%;
+   display: flex;
+}
+header .header_info{
+    height: 50px;
+    gap: 35px;
+}
+
+header .header_info li a i {
+    margin-right: 10px;
+}
+
+header .header_info li a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+header .header_info li a:hover{
+    color: #B22404;
+}
+
+
+
+header .header_social_link{
+    height: 50px;
+    justify-content: center;
+    gap: 35px;
+}
+
+header .header_social_link li a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+
+}
+header .header_social_link li a:hover{
+    color: #B22404;
+}
+
+
+
+/*==============================
+    HEADER END
+==============================*/
+
+
+/*==============================
+    MENU START
+==============================*/
+
+
+.main_menu {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.main_menu .navbar-brand {
+    margin: 0;
+    padding: 0;
+    width: 220px;
+}
+
+.main_menu .navbar-nav {
+    gap: 30px;
+}
+
+.main_menu .navbar-nav .nav-link {
+    margin: 0;
+    padding: 27px 10px;
+    color: #521305;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main_menu .navbar-nav .nav-link:hover {
+    background: #B22404;
+    color: #fff;
+}
+
+.main_menu .right_menu {
+    gap: 20px;
+}
+
+.main_menu .right_menu li a {
+    color: #521305;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .right_menu li a:hover {
+    color:#B22404;
+}
+
+.main_menu .right_menu li .btn_design {
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 5px 15px;
+}
+
+.main_menu .right_menu li .btn_design:hover {
+    background: #B22404;
+    color: #fff;
+    border-color: #B22404;
+    
+}
+
+.main_menu .right_menu li:last-child a {
+    background: #B22404;
+    color: #fff;
+    border-color: #B22404;
+}
+
+
+
+/*==============================
+    MENU END
+==============================*/
+
+
+/*==============================
+    BANNER START
+==============================*/
+
+
+.banner_aria{
+    background: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 175px;
+    padding-bottom: 230px;
+
+}
+.banner_aria h1{
+   
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    width: 65%;
+}
+.banner_aria p {
+    color: #eee;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_aria form input{
+    display: inline-flex;
+    padding: 8px 208px 8px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50px;
+    background: #FFF;
+}
+.banner_aria .banner_text form button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 28px;
+    border-radius: 50px;
+    background: #DC3E1B;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+/*==============================
+    BANNER END
+==============================*/
+
+/*==============================
+    STORY START
+==============================*/
+
+
+
+/*==============================
+    STORY START
+==============================*/
+.story {
+    margin-top: 50px;
+}
+.story img {
+    margin-left: 20PX;
+    width: 365px !important;
+    height: 300px;
+    background: #000;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+
+
+.story h5{
+        color: #000000cc;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 30px;
+}
+.story h2{
+        color:  #330C03;
+        font-size: 56px;
+        font-weight: 700;
+
+}
+.story p{
+        color: #000000cc;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 400;
+}
+.story span{
+        color: #000;
+        font-size: 18px;
+        font-weight: 400;
+
+}
+/*==============================
+    STORY END
+==============================*/
+
+
+
+
+/*==============================
+    WORK START
+==============================*/
+
+
+.work {
+    background: #F8D7D3;
+    padding-top: 50px;
+}
+.work .work_heading h2{
+    color:#330C03;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 75.6px;
+}
+.work .work_heading p {
+    color: #000000e6;
+    text-align: center;
+    font-size: 18px;
+    width: 575px;
+}
+.work .work_box{
+    width: 320px;
+    height: 270px;
+    text-align: center;
+    border-radius: 10px;
+    background: #f7b7aa;
+    box-shadow: 0px 4px 10px 0px #f2b3a640;
+
+}
+.work .work_box i {
+    width: 54px;
+    height: 60px;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #D92B04;
+}
+.work .work_box h3{
+    color:#521305;
+    font-size: 24px;
+    font-weight: 700;
+}
+.work .work_box p {
+    color: #020202f2;
+    font-size: 14px;
+    font-weight: 400;
+    width: 216px;
+    margin-left: 45px;
+}
+.work .work_box img {
+    margin-left: 345px;
+    margin-top: -145px;
+}
+.work .work_button button {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 28px;
+    border-radius: 50px;
+    background: #DC3E1B;
+    margin-left: 565px;
+    margin-top: 50px;
+    margin-bottom: 140px;
+}
+   
+
+/*==============================
+    WORK END
+==============================*/
+/*==============================
+    OUR MENU START
+==============================*/ 
+ .our_menu{
+    margin-bottom: 100px;
+}
+.menu_item .menu_item_text {
+    width: 259px;
+    height: 162px;
+    text-align: center;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 10px 15px 0px #0000001a;
+    margin-left: 70px;
+    margin-top: -85px;
+    position: absolute;
+}
+.our_menu_text p{
+    text-align: center;
+    color: #000000cc;
+    font-size: 16px;
+    font-weight: 400;
+}
+.our_menu_text h2{
+    text-align: center;
+    color: #330C03;
+    font-size: 56px;
+    font-weight: 700;
+}
+.our_menu_nav{
+    margin-bottom: 50px;
+}
+.our_menu_nav .nav-item .nav-link{
+    color: #000000cc;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.our_menu_nav .nav-item .nav-link:hover{
+    color: #D92B04;
+} 
+.menu_item img {
+    position: relative;
+    margin-top: 25px;
+    height: 440px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.menu_item{
+    margin-bottom: 70px;
+}
+
+.menu_tem_text{
+    position: relative;
+    height: 160px;
+    text-align:center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.10);
+}
+.menu_item_text p{
+    
+    border-radius: 50px;
+    background: #F8D7D0;
+    padding: 4px 15px;
+    gap: 10px;
+    align-content: center;
+    width: 20%;
+    margin-left: 40%;
+}
+.menu_item_text .heading{
+    font-size: 18;
+    font-weight: 700;
+    color: #521305 ;
+  
+}
+.menu_item_text .btn{
+    color: #000000cc;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1.5px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    margin-top: 20px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.menu_item_text .btn:hover{
+    color: #FFF;
+    background: #B22404;
+}
+.menu_item_view{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: fff;
+}
+.menu_item_view .a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px;
+    background: var(--dc-3-e-1-b, #DC3E1B);
+    padding: 4px 30px;
+    text-align: center;
+} 
+
+
+/*==============================
+   OUR MENU END
+==============================*/
+
+
+
+/*==============================
+  food network START
+==============================*/
+.food_network{
+    background:#F8D7D3;
+    padding: 80px 0;
+   
+}
+.food_network_text{}
+.food_network_text h6{
+    color: #000000e6;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 90px;
+   
+}
+.food_network_text h2{
+    color:#330C03;
+    font-size: 56px;
+    font-weight: 700;
+}
+.food_network_text p {
+    color: #000000e6;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    width: 73%;
+}
+.food_network_text a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400; 
+    border-radius: 50px;
+    background: #DC3E1B;
+    padding: 8px 30px;
+}
+.food_network img{
+    overflow: hidden;
+    height: 495px;
+}
+/*==============================
+  food network END
+==============================*/
+
+/*==============================
+  ORDER START
+==============================*/
+
+.Order_part{
+    background: #DC3E1B;
+    overflow: hidden;
+}
+.Order_part .order_text{
+    margin-top: 140px;
+}
+.Order_part .order_text h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.Order_part .order_text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.Order_part .order_text form button {
+    width: 179px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1.5px solid #ffffff80;
+    background: #DC3E1B;
+    margin-right: 25px;
+    color: #fff;
+}
+.Order_part .order_text form button i {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+/*==============================
+  ORDER END
+==============================*/
+
+
+/*==============================
+  footer start
+==============================*/
+footer{
+    background: rgba(0, 0, 0, 0.90);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+footer h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+footer ul{
+
+}
+footer ul li {
+    margin-bottom: 17px;
+    list-style: none;
+}
+footer ul li a{
+    margin-bottom: 17px;
+    color: var(--FFFFFF, #FFF);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+.footer_contact_text  p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer_introduction p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    width: 85%;
+    margin-bottom: 50px;
+}
+.footer_contact_text a{
+    color: #fff;
+}
+footer ul li a {
+    margin-bottom: 17px;
+    color: var(--FFFFFF, #FFF);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 17px;
+    text-decoration: none;
+}
+.footer_introduction img {
+    margin-top: -15px;
+    margin-bottom: 35px;
+}
+/*==============================
+  footer END
+==============================*/
+
+
+/*==============================
+  footer last start
+==============================*/
+.footer_last {
+    background: url(../images/footer\ bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.footer_last h2{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    margin-bottom: 40px;
+}
+.footer_last input {
+    height: 85px;
+    width: 1175px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px #00000026;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+.footer_last button {
+    border-radius: 50px;
+    background: #DC3E1B;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: -212px;
+    padding: 15px 30px;
+}
+
+/*==============================
+  footer last end
+==============================*/
+
+/*==============================
+  buttom part start
+==============================*/
+
+.buttom_part{
+    background: #000;
+    text-align: center;
+    color: #FFF;
+}
+.buttom_part P {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+/*==============================
+  buttom part end
+==============================*/
